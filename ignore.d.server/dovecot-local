@@ -1,0 +1,2 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: (pop3|imap)\([-_.@[:alnum:]]+\)<[[:digit:]]+><.*>: (copy|delete|expunge).*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: lda\([-_.@[:alnum:]]+\)<[[:digit:]]+><.*>: (save|sieve): .*$

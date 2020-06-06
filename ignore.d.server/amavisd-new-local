@@ -1,0 +1,22 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Passed (CLEAN) {(RelayedInternal|RelayedInbound)},.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) ESMTP \[127.0.0.1\]:(10026|10024|10025) .*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) DSPAM result: (Whitelisted|Innocent), [^>]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) TIMING-SA[^>]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) SA info[^>]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: candidate originators: From:<[^>]+>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: signing \(author\), From: <[^>]+> .*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: VALID.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) spam-tag.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ \[[^.]*\] (ORIGINATING|ORIGINATING/MYNETS).*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ \[[^.]*\] <[^.]*> -> <[^.]*>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ ORIGINATING/MYNETS \[[.:[:xdigit:]]{3,39}\] <[^>]+> -> <[^>]+>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ \[[.:[:xdigit:]]{3,39}\] <[^>]+> -> <[^>]+>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) p00(1|2|3|4).*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) wbl:.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) size:.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Requesting process rundown after [[:digit:]]{1,2} tasks \(and [[:digit:]]{1,2} sessions\)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) extra modules loaded: Convert/UUlib\.pm, common/sense\.pm$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) \.\.\..*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: sd_notify \(no socket\): STATUS=Starting child process(es), ready for work\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: storage and lookups will use the same connection to SQL$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) [-_[:alnum:]]+ FWD from <[-_@.[:alnum:]]+> -> <[-_@.[:alnum:]]+>,[[:space:]]{1,2}(BODY=7BIT 250|250).*$
