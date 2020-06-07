@@ -20,7 +20,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> (securiteinfo|securiteinfohtml|securiteinfoascii|securiteinfoandroid|securiteinfoold|securiteinfopdf)\.(hdb|ign2) (is up to date|updated) \(version: custom database\)$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> (javascript|spam_marketing)\.ndb (is up to date|updated) \(version: custom database\)$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> (main|daily|safebrowsing|bytecode)\.c(l|v)d database (is up to date|updated) \(version: [0-9]+, sigs: [0-9]+, f-level: [0-9]+, builder: [._[:alnum:]-]+\)$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> Testing database: [._[:alnum:]-]+ \.\.\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> Testing database: '[._/[:alnum:]-]+' \.\.\.$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> Database test passed\.$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> (javascript|spam_marketing)\.ndb (is up to date|updated) \(version: custom database, sigs: [0-9]+\)$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> Clamd successfully notified about the update\.$
