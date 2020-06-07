@@ -1,0 +1,1 @@
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhclient\[[[:digit:]]+\]: DHCP(REQUEST|RELEASE) for [.0-9]{7,15} on [[:alnum:].-]+ to [.0-9]{7,15} port 67$
