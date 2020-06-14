@@ -4,12 +4,13 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) TIMING-SA[^>]+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) SA info[^>]+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: candidate originators: From:<[-_@.[:alnum:]]+>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: candidate originators: From:<[-_@.[:alnum:]]+>, mail_from:<[-_@.[:alnum:]]+>$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: signing \(author\), From: <[-_@.[:alnum:]]+> .*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) dkim: VALID.*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) spam-tag.*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ \[[^.]*\] (ORIGINATING|ORIGINATING/MYNETS).*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ \[[^.]*\] <[-_@.[:alnum:]]+> -> <[-_@.[:alnum:]]+>$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ ORIGINATING/MYNETS \[[.:[:xdigit:]]{3,39}\] <[-_@.[:alnum:]]+> -> <[-_@.[:alnum:]]+>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ (ORIGINATING|ORIGINATING/MYNETS) \[[.:[:xdigit:]]{3,39}\] <[-_@.[:alnum:]]+> -> <[-_@.[:alnum:]]+>$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) Checking: [-_[:alnum:]]+ \[[.:[:xdigit:]]{3,39}\] <[-_@.[:alnum:]]+> -> <[-_@.[:alnum:]]+>$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) p00(1|2|3|4).*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) wbl:.*$
