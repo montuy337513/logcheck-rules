@@ -21,3 +21,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: sd_notify \(no socket\): STATUS=Starting child process(es), ready for work\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: storage and lookups will use the same connection to SQL$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) [-_[:alnum:]]+ FWD from <[-_@.[:alnum:]]+> -> <[-_@.[:alnum:]]+>,[[:space:]]{1,2}(BODY=7BIT 250|250).*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ amavis\[[[:digit:]]+\]: \([-[:digit:]]+\) NOTICE: reconnecting in response to: err=2006, HY000, DBD::MariaDB::st execute failed: MySQL server has gone away at \(eval [[:digit:]]+\) line [[:digit:]]+\.$
