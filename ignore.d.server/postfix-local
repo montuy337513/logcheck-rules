@@ -2,9 +2,10 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtp\[[[:digit:]]+\]: disconnect from localhost .+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/postscreen\[[[:digit:]]+\]: (CONNECT|PASS OLD) .+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: (dis)?connect from localhost.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/smtpd\[[[:digit:]]+\]: disconnect from unknown \[[.[:digit:]]+\] ehlo=1 commands=1$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/anvil\[[[:digit:]]+\]: statistics: .*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/postscreen\[[[:digit:]]+\]: (WHITELISTED|HANGUP|PREGREET|DNSBL|DISCONNECT).*$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/postscreen\[[[:digit:]]+\]: NOQUEUE: rejct: RCPT from \[[.[:digit:]]+\]:[[:digit:]]+: 550 5.7.1 Service unavailable; client \[[.[:digit:]]+\] blocked using zen.spamhaus.org; from=<[-_@.[:alnum:]]+>, to=<[-_@.[:alnum:]]+>, proto=SMTP, helo=<[-_@.[:alnum:]]+>$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/postscreen\[[[:digit:]]+\]: NOQUEUE: reject: RCPT from \[[.[:digit:]]+\]:[[:digit:]]+: 550 5.7.1 Service unavailable; client \[[.[:digit:]]+\] blocked using zen.spamhaus.org; from=<[-_@.[:alnum:]]+>, to=<[-_@.[:alnum:]]+>, proto=SMTP, helo=<[-_@.[:alnum:]]+>$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/postscreen\[[[:digit:]]+\]: PASS NEW \[[.[:digit:]]+\]:[[:digit:]]+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/dnsblog\[[[:digit:]]+\]: addr .*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ postfix/tlsproxy\[[[:digit:]]+\]: (CONNECT from|DISCONNECT) \[[.[:digit:]]+\]:[[:digit:]]+$
