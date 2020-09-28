@@ -2,4 +2,4 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: apt-daily.service: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: apt-daily-upgrade.service: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: logrotate.service: Succeeded\.$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: phpsessionclean.service: Succeeded\.$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: (phpsessionclean|certbot).service: Succeeded\.$
