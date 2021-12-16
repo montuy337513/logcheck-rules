@@ -10,6 +10,7 @@ Elles sont testées sur :
 * Debian 8 - Jessie
 * Debian 9 - Stretch
 * Debian 10 - Buster
+* Debian 11 - Bullseye
 
 Ces règles doivent fonctionner sur d'autre distributions Linux.
 
