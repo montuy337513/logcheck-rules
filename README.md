@@ -17,6 +17,7 @@ Ces règles doivent fonctionner sur d'autre distributions Linux.
 ## Installation
 
 Copiez les fichiers présents dans ignore.d.server sur votre système Debian (dans /etc/logcheck/ignore.d.server)
+La prise en charge se fait automatiquement.
 
 ## Note
 
@@ -25,3 +26,7 @@ Les fichiers *-local contiennent des règles fonctionnannt sur tous les serveurs
 Les fichiers *-perso sont des fichiers contenant des règles spécifiques, il faut les adapter à votre configuration.  
 
 * dovecot-perso : modifier/dupliquer les lignes suivantes en spécifiant vos adresses mails
+
+## Problemes
+
+si vous rencontrez un problème avec ses règles,vous pouvez me contacter directement ici. 
