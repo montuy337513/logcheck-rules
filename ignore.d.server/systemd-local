@@ -1,6 +1,6 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: systemd-tmpfiles-clean.service: Succeeded\.$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: apt-daily.service: Succeeded\.$
-^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: apt-daily-upgrade.service: (Succeeded|Consumed [.[0-9]+]s CPU time)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: apt-daily.service: (Succeeded|Consumed [.[:alnum:]]+s CPU time)\.$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: apt-daily-upgrade.service: (Succeeded|Consumed [.[:alnum:]]+s CPU time)\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: logrotate.service: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: (phpsessionclean|certbot).service: Succeeded\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: Finished Certbot\.$
